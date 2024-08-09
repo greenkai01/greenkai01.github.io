@@ -15,7 +15,6 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-active                   : "giscus"
 locale                   : "ko-KR" # 블로그의 기본 언어를 설정합니다. ex)영어: en-US
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "1-3 Website" #사이트 탭에 나타나는 블로그 이름
@@ -36,7 +35,7 @@ enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -50,9 +49,10 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
+    repo                 : "greenkai01/greenkai01.github.io"
+    repo_id              : "R_kgDOMhKLjg" # Shown during giscus setup at https://giscus.app
+    category             : "Announcements" # Full text name of the category
+    category_id          : "DIC_kwDOMhKLjs4ChgSL" # Shown during giscus setup at https://giscus.app
     discussion_term      : # "pathname" (default), "url", "title", "og:title"
     reactions_enabled    : # '1' for enabled (default), '0' for disabled
     theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
