@@ -25,7 +25,6 @@ subtitle                 : "Let's do our best!" # 블로그 제목 아래에 표
 name                     : "관리자: 서연우"
 description              : "An amazing website."
 url                      : "https://greenkai01.github.io"
-baseurl                  : "https://www.megastudy.net/"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
