@@ -28,8 +28,12 @@
     script.setAttribute('crossorigin', 'anonymous');
 
     script.setAttribute('async', '');
+    
+    commentContainer.appendChild(script);
+  })();
+</script>
 
-    <script src="https://giscus.app/client.js"
+<script src="https://giscus.app/client.js"
         data-repo="greenkai01/greenkai01.github.io"
         data-repo-id="R_kgDOMhKLjg"
         data-category="Announcements"
@@ -44,7 +48,3 @@
         crossorigin="anonymous"
         async>
     </script>
-
-    commentContainer.appendChild(script);
-  })();
-</script>
